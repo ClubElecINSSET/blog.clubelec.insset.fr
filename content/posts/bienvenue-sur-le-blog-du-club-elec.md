@@ -1,6 +1,6 @@
 +++
 categories = ["Le blog"]
-date = 2022-09-16T00:00:00Z
+date = 2022-09-15T00:00:00Z
 tags = ["club elec", "blog", "bienvenue"]
 title = "Bienvenue sur le blog du club elec"
 
