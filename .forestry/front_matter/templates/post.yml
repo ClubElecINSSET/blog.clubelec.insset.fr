@@ -1,4 +1,28 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: ''
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
