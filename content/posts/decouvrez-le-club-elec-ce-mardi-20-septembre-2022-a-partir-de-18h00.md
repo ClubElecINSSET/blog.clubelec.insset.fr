@@ -2,7 +2,7 @@
 categories = ["réunion"]
 date = 2022-09-16T00:00:00Z
 tags = ["club elec", "réunion", "découverte", "surprises"]
-title = "Découvrez le club elec ce mardi 20 septembre 2022 à partir de 18h00"
+title = "Découvrez le club elec ce mardi 20 septembre 2022 à partir de 18h00 dans l'amphithéâtre du campus"
 
 +++
 Nous vous donnons rendez-vous ce mardi 20 septembre 2022, à partir de 18h00, dans l'amphithéâtre du campus, pour une conférence de découverte du club elec.
