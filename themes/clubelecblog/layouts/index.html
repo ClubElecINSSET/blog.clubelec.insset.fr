@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+{{ partial "head.html" . }}
+
+<body>
+
+    {{ partial "common.html" . }}
+    <main>
+        <article class="posts">
+            <div class="row">
+                <div class="col-xs-12">
+                    {{ partial "header.html" . }}
+                    <div>
+                        {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006" -}}
+                        <section>
+                            <h1 class="site-date">{{ .Key }}</h1>
+                            <div class="cards">
+                                {{ range .Pages }}
+                                {{ $month_names := slice "jan" "fév" "mars" "avril" "mai" "juin" "juil" "août" "sep" "oct" "nov" "déc" }}
+                                {{ $month := sub .Date.Month 1 }}
+                                <a href="{{ .RelPermalink }}">
+                                    <div class="card">
+                                        {{ range .Params.categories }}
+                                        <h4>{{ . }}</h4>
+                                        {{ end }}
+                                        <h3 class="headline">{{ .Title }}</h3>
+                                        <time datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Day }}{{ if eq .Date.Day 1 }}er{{end}}&nbsp;{{ index $month_names $month }} {{ .Date.Year }}</time>
+                                        <p>{{ .Summary }}</p>
+                                    </div>
+                                </a>
+                                {{ end }}
+                            </div>
+                        </section>
+                        {{ end }}
+                    </div>
+                    {{ partial "footer.html" . }}
+                </div>
+            </div>
+        </article>
+    </main>
+
+</body>
+
+</html>

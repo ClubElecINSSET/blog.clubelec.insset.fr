@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "common.html" . }}
+    <main>
+        <article class="post" id="article">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="site-header">
+                        {{ partial "header.html" . }}
+                    </div>
+                    <div class="post-elem">
+                        <div class="post-header">
+                            {{ range .Params.categories }}
+                            <h4>{{ . }}</h4>
+                            {{ end }}
+                            <h1 class="post-title">{{ .Title }}</h1>
+                            {{ if in .Site.Params.mainSections .Type }}
+                            <div class="row post-desc">
+                                <div class="col-xs-6">
+                                    {{ if .Date }}
+                                    {{ $month_names := slice "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" }}
+                                    {{ $month := sub .Date.Month 1 }}
+                                    <time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Day }}{{ if eq .Date.Day 1 }}er{{end}}&nbsp;{{ index $month_names $month }} {{ .Date.Year }}</time>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                        <div class="post-content markdown-body" data-progress-indicator>
+                            {{ .Site.Params.postHeaderContent | safeHTML }}
+                            {{ .Content }}
+                        </div>
+                    </div>
+                    <div style="height: 32px;"></div>
+                    {{ partial "footer.html" . }}
+                </div>
+        </article>
+    </main>
+    <div id="go-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+        </svg>
+    </div>
+    {{ partial "scripts.html" . }}
+</body>
+
+</html>
