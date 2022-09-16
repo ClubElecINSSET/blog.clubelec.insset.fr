@@ -2,12 +2,12 @@
     font-family: "Varela Round";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/varela-round-v19-latin-regular.eot");
-    src: local(""), url("../fonts/varela-round-v19-latin-regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/varela-round-v19-latin-regular.woff2") format("woff2"),
-        url("../fonts/varela-round-v19-latin-regular.woff") format("woff"),
-        url("../fonts/varela-round-v19-latin-regular.ttf") format("truetype"),
-        url("../fonts/varela-round-v19-latin-regular.svg#VarelaRound") format("svg");
+    src: url("/fonts/varela-round-v19-latin-regular.eot");
+    src: local(""), url("/fonts/varela-round-v19-latin-regular.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/varela-round-v19-latin-regular.woff2") format("woff2"),
+        url("/fonts/varela-round-v19-latin-regular.woff") format("woff"),
+        url("/fonts/varela-round-v19-latin-regular.ttf") format("truetype"),
+        url("/fonts/varela-round-v19-latin-regular.svg#VarelaRound") format("svg");
 }
 
 body {
