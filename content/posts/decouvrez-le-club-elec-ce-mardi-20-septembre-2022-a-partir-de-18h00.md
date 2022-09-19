@@ -8,7 +8,8 @@ title = "Découvrez le club elec ce mardi 20 septembre 2022 à partir de 18h00 d
 Depuis plus de 20 ans, le club elec contribue, au sein de notre institut, au développement des projets étudiants dans les domaines de l'électronique, de la mécanique, de la robotique et de l'informatique.  
 Que cela soit en soutenant vos projets personnels, ceux de l’Université, ou encore en vous permettant de participer à la Coupe de France de Robotique.
 
-Nous vous donnons rendez-vous ce mardi 20 septembre 2022, à partir de 18h00, dans l'amphithéâtre du campus (D001) pour une conférence de découverte du club elec.
+Nous vous donnons rendez-vous ce mardi 20 septembre 2022, à partir de 18h00, dans l'amphithéâtre du campus (D001) pour une conférence de découverte du club elec.  
+Vous ne pouvez pas être présent ? N'ayez crainte, vous pouvez retrouver la réunion en direct sur [Zoom](https://u-picardie-fr.zoom.us/j/88045501614?pwd=SThBQ2FYN3lHbFE1L085NkxtbVJSZz09).
 
 Si vous avez envie de vous lancer dans des projets passionnants, que vous souhaitez faire vivre votre institut ainsi que le faire rayonner au niveau national, c’est le moment de nous rejoindre !
 
