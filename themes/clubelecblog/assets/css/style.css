@@ -69,6 +69,9 @@ header {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+header svg path {
     fill: #1e1f1d;
     stroke: #1e1f1d;
 }
