@@ -370,7 +370,7 @@ footer a>svg:hover {
         filter: invert(100%);
     }
 
-    .logo {
+    header svg path {
         fill: #e1e0e2;
         stroke: #e1e0e2;
     }
