@@ -2,7 +2,7 @@
 categories = ["Opération COSMOS"]
 date = 2022-11-12T00:00:00Z
 tags = ["Opération COSMOS", "club elec", "CAPROM", "électronique", "collégiens"]
-title = "Qu'est-ce que l'opération COSMOS ?"
+title = "Qu'est-ce que l'Opération COSMOS ?"
 
 +++
 Dans ce p'tit billet de blog, nous vous proposons de découvrir un projet local auquel nous participons : l'Opération COSMOS.
