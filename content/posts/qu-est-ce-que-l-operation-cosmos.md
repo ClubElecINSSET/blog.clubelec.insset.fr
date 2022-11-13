@@ -41,6 +41,6 @@ Eh oui, nous n'avons pas besoin de partir si loin pour trouver les étoiles du c
 
 Pour cette nouvelle année, la conception de la carte électronique a été confiée par CAPROM à notre association.
 
-La carte électronique devant rester suffisamment simple pour pourvoir être soudée et programmée par les collégiens dans de courts créneaux de trois heures, les étudiants du club elec ont fait le choix de réaliser de reprendre l'idée de l'année passée tout en la rendant un peu plus "bruyante" : un petit cube qui émettra de la lumière et du son lorsqu’il sera pivoté.
+La carte électronique devant rester suffisamment simple pour pourvoir être soudée et programmée par les collégiens dans de courts créneaux de trois heures, les étudiants du club elec ont fait le choix de reprendre l'idée de l'année passée tout en la rendant un peu plus "bruyante" : un petit cube qui émettra de la lumière et du son lorsqu’il sera pivoté.
 
 On vous réserve la présentation de ce dernier dans un prochain article. 😜
