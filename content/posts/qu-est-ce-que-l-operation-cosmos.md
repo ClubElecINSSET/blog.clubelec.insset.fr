@@ -1,7 +1,7 @@
 +++
 categories = ["Opération COSMOS"]
 date = 2022-11-12T00:00:00Z
-tags = ["Opération COSMOS", "club elec", "CAPROM", "électronique", "collégiens"]
+tags = ["Opération COSMOS", "club elec", "CAPROM", "électronique", "collégiens", "INSSET", "UPJV", "Institut Supérieur des Sciences et Techniques", "Université de Picardie Jules Verne"]
 title = "Qu'est-ce que l'Opération COSMOS ?"
 
 +++
