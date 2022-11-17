@@ -71,11 +71,6 @@ header {
     margin: 0 auto;
 }
 
-header svg path {
-    fill: #1e1f1d;
-    stroke: #1e1f1d;
-}
-
 @keyframes fadein {
     from {
         margin-top: 20px;
@@ -370,9 +365,8 @@ footer a>svg:hover {
         filter: invert(100%);
     }
 
-    header svg path {
-        fill: #e1e0e2;
-        stroke: #e1e0e2;
+    header svg {
+        filter: invert(100%);
     }
 
     .card {

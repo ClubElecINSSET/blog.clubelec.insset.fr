@@ -28,7 +28,7 @@
                 return;
             }
             window.requestAnimationFrame(function() {
-                var offset = Math.min(100, lastKnownScrollPosition / (progressIndicatorForElement.scrollHeight - window.innerHeight) * 100);
+                var offset = Math.min(100, lastKnownScrollPosition / (progressIndicatorForElement.scrollHeight - window.innerHeight) * 100 - 15);
                 progressElement.style.transform = `translateX(${offset}%)`;
                 ticking = false;
             });
