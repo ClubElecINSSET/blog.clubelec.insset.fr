@@ -1,7 +1,6 @@
 +++
-categories = []
+categories = ["club elec"]
 date = 2023-01-10T00:00:00Z
-draft = true
 tags = ["bonne année", "2023", "club elec"]
 title = "Nous vous souhaitons une belle année 2023 !"
 
