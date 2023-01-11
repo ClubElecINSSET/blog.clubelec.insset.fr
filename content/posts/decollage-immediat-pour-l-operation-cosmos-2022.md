@@ -9,7 +9,7 @@ En ce lundi 14 novembre 2022 a débuté l'édition 2022 de l'Opération COSMOS !
 
 ![](/uploads/operation_cosmos_logo-1.jpg)
 
-Entre novembre et décembre 2022, ce ne sont pas moins de quatre-vingt collégiennes et collégiens des différents collèges prioritaires de Saint-Quentin qui vont se retrouver sur le campus de Saint-Quentin.  
+Entre novembre et décembre 2022, ce ne sont pas moins de quatre-vingts collégiennes et collégiens des différents collèges prioritaires de Saint-Quentin qui vont se retrouver sur le campus de Saint-Quentin.  
 Au programme ? Découverte de l'électronique et de la programmation à l'aide d'une carte électronique, dont ils sont amenés à souder les composants et à la programmer.  
 Si vous souhaitez en savoir plus sur l'Opération COSMOS, nous avons publié récemment [un article complet](https://blog.clubelec.insset.fr/2022/11/12/quest-ce-que-lop%C3%A9ration-cosmos/).
 
@@ -26,9 +26,9 @@ La carte électronique devant rester suffisamment simple pour pourvoir être sou
 
 La carte électronique a été conçue par Aurélien Lorthois, assistant ingénieur de l'INSSET, et par Fleury Mobima, Justin Ounoumbaye et Valentin Boulanger, tous trois étudiants en Master 1 Génie Industriel parcours Systèmes Embarqués.
 
-| Face avant                              | Face arrière                              |
-| :-------------------------------------: | :---------------------------------------: |
-| ![](/uploads/carte_face_avant-opti.png) | ![](/uploads/carte_face_arriere-opti.png) |
+| Face avant | Face arrière |
+| :---: | :---: |
+|  |  |
 
 Elle n'est pas belle notre p'tite carte ? 😄
 
